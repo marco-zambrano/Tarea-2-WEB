@@ -377,3 +377,41 @@ img {
     font-size: 0.9rem;
     color: var(--text-color);
 }
+
+/* REFERENCES SECTION */
+.references-section {
+    background-color: var(--white);
+}
+
+.table-container {
+    overflow-x: auto;
+    background-color: var(--white);
+    border-radius: 10px;
+    box-shadow: var(--shadow);
+}
+
+.references-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.references-table th, 
+.references-table td {
+    padding: 15px 20px;
+    text-align: left;
+}
+
+.references-table th {
+    background-color: var(--primary-color);
+    color: var(--white);
+    font-weight: 700;
+}
+
+.references-table tr {
+    border-bottom: 1px solid #eee;
+    transition: var(--transition);
+}
+
+.references-table tr:hover {
+    background-color: #f8f9fa;
+}
