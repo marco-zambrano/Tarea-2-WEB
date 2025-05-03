@@ -322,3 +322,58 @@ img {
     color: var(--secondary-color);
     margin-bottom: 10px;
 }
+
+/* CAPACITACIONES SECTION */
+.training-section {
+    background-color: var(--light-color);
+}
+
+.training-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 30px;
+}
+
+.training-item {
+    display: flex;
+    align-items: center;
+    background-color: var(--light-color);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: var(--shadow);
+    transition: var(--transition);
+    cursor: pointer;
+}
+
+.training-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.training-icon {
+    width: 60px;
+    height: 60px;
+    background-color: var(--white);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 20px;
+    flex-shrink: 0;
+}
+
+.training-content h3 {
+    font-size: 1.1rem;
+    margin-bottom: 5px;
+}
+
+.training-provider {
+    color: var(--secondary-color);
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.training-date {
+    font-size: 0.9rem;
+    color: var(--text-color);
+}
