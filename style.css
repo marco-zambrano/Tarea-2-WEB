@@ -186,3 +186,72 @@ img {
     height: 100%;
     object-fit: cover;
 }
+
+
+/* EXPERIENCE SECTION */
+.experience-section {
+    background-color: var(--light-color);
+}
+
+.cards-container {
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    background-color: var(--white);
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: var(--shadow);
+    transition: var(--transition);
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+}
+
+.card-header {
+    background-color: var(--primary-color);
+    color: var(--white);
+    padding: 20px;
+}
+
+.card-header h3 {
+    color: var(--white);
+    margin-bottom: 5px;
+}
+
+.card-date {
+    font-size: 0.9rem;
+    opacity: 0.8;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.card-company {
+    font-weight: 500;
+    margin-bottom: 15px;
+    color: var(--dark-color);
+}
+
+.card-company i {
+    margin-right: 8px;
+    color: var(--primary-color);
+}
+
+.card-list li {
+    margin-bottom: 10px;
+    padding-left: 20px;
+    position: relative;
+}
+
+.card-list li::before {
+    content: '•';
+    position: absolute;
+    left: 0;
+    color: var(--primary-color);
+    font-size: 1.2rem;
+}
