@@ -114,3 +114,75 @@ img {
     cursor: pointer;
     color: var(--dark-color);
 }
+
+/* HERO SECTION */
+.hero {
+    padding: 180px 0 100px;
+    background-color: var(--white);
+}
+
+.hero-container {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.hero-content {
+    flex: 1;
+}
+
+.hero-content h1 {
+    font-size: 3.5rem;
+    margin-bottom: 10px;
+    color: var(--dark-color);
+}
+
+.hero-content h2 {
+    font-size: 1.8rem;
+    color: var(--primary-color);
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+
+.hero-contact {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: var(--text-color);
+    transition: var(--transition);
+}
+
+.contact-item:hover {
+    color: var(--primary-color);
+    transform: translateY(-3px);
+}
+
+.contact-item i {
+    color: var(--primary-color);
+}
+
+.hero-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.profile-image {
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    overflow: hidden;
+    box-shadow: var(--shadow);
+}
+
+.profile-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
